@@ -1,0 +1,24 @@
+{
+  "name": "docker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "npm": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TannerGarner/docker-example.git"
+  },
+  "author": "Tanner Garner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TannerGarner/docker-example/issues"
+  },
+  "homepage": "https://github.com/TannerGarner/docker-example#readme"
+}
