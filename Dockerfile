@@ -2,7 +2,9 @@ FROM node:latest
 
 LABEL maintainer="Tanner Garner"
 
-WORKDIR /
+WORKDIR /app
+
+COPY . .
 
 EXPOSE 8080
 
