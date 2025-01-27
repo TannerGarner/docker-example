@@ -1,5 +1,21 @@
-# docker-example
+# docker-example Commands
 
+Deploy Stack: 
+docker stack deploy -c docker-compose.yaml docker-example-stack
+
+Scale 1st Service (to 7 instances):
+docker service scale docker-example-stack_mywebsite=7
+
+Scale 1st Service (to 2 instances):
+docker service scale docker-example-stack_mywebsite=2
+
+Scale 2nd Service (to 4 instances):
+docker service scale docker-example-stack_secondwebsite=4
+
+Remove the Stack: 
+docker stack rm docker-example-stack
+
+# Notes on Docker
 vm - virtual machine
 docker - container service
 AWS Azure GCP
